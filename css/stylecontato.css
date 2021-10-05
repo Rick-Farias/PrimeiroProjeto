@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.2rem;
+    font-family: 'Poppins' ,Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#E3F8FF,#b4d5e0);
+}   
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container-c{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+header{
+    background-color: #4B9EBF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    max-width: 100px;
+}
+header a{
+    color: white;
+}
+
+.menu li:hover{
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.menu a:hover{
+    color: #124673;
+}
+
+.menu li{
+    float: right;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.contato p{
+    color: #124673;
+    padding: 5px 20px;
+    font-size: 1.0rem;
+}
+.contato h3{
+    color: #124673;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.linha{
+    width: 90%;
+    height: 1px;
+    background-color: #99B8C2;
+    margin: auto;
+}
+.contato{
+    width: 350px;
+    height: 450px;
+    border: solid 2px #124673;
+    border-radius: 10px;
+}
+
+
+.mapa{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.tmapa{
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.tmapa p{
+    color: #124673;
+    padding-top: 10px;
+}
+
+.tmapa img{
+    max-width: 30px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #3279A6;
+    color: #ffffff;
+}
+.baixo{
+    padding-top: 40px;
+    text-align: center;
+}
